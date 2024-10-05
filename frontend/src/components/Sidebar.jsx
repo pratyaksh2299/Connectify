@@ -35,7 +35,7 @@ const Sidebar = () => {
             <h1>Chats</h1>
          </div>
       <form onSubmit={handleSubmit} className="flex items-center gap-3">
-        <TextField
+        {/* <TextField
         
           variant="outlined"
           size="small"
@@ -61,7 +61,7 @@ const Sidebar = () => {
           className="ml-2 py-2 px-4 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
         >
           <IoMdSearch size="24px" />
-        </Button>
+        </Button> */}
       </form>
       <div className='divider'></div>
       <OtherUsers/>
